@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review - Glamoure Glow</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html"><h1>GLAMOURE GLOW</h1></a>
+                </div>
+                
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">HOME</a>
+                    <a href="about.html" class="nav-link">ABOUT</a>
+                    <a href="shop.html" class="nav-link">SHOP</a>
+                    <a href="review.html" class="nav-link active">
+                        REVIEW <span class="check">✓</span>
+                    </a>
+                </nav>
+
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main review-main">
+        <div class="container">
+            <div class="review-header">
+                <h1>Leave a Review!</h1>
+                <p>Please fill out the form below to share your experience with our products. Your feedback helps us improve and serve you better.</p>
+            </div>
+
+            <div class="review-form-container">
+                <form class="review-form">
+                    <div class="form-group">
+                        <label for="name">NAME</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-MAIL</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">SUBJECT</label>
+                        <input type="text" id="subject" name="subject" required placeholder="What is your review about?">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">MESSAGE</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Share your detailed review and experience with our products..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-large">
+                        <i class="fas fa-paper-plane"></i>
+                        Submit Review
+                    </button>
+                </form>
+
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Get in Touch</h3>
+                        <p>For direct inquiries, reach us at:</p>
+                        <a href="mailto:hello@reallygreatsite.com">hello@reallygreatsite.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Glamoure Glow. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
